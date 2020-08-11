@@ -182,7 +182,6 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 }
 .details_container{
     display:flex;
-    flex-direction: row-reverse;
     border: 0.125rem dotted var(--border-color);
     color: var(--font-color);
 }

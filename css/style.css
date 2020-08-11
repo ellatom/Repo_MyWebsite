@@ -184,6 +184,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
     display:flex;
     border: 0.125rem dotted var(--border-color);
     color: var(--font-color);
+    flex-direction: row-reverse;
 }
 .details,.my_photo{
     flex:1;

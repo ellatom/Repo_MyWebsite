@@ -241,6 +241,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 .right-side__education> li,.right-side__languages>li,.skills>li,.details>li{
     color:inherit;
     padding:1.875rem 1.875rem;
+    line-height:29px;
 }
 .skills__meter { 
     height: 8px;
@@ -248,6 +249,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
     position: relative;
     background:var(--meter-color);
     overflow: hidden;
+    margin-top:10px;
 }
 
 .skills__meter span {

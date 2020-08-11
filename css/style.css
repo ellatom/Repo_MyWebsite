@@ -240,7 +240,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 
 .right-side__education> li,.right-side__languages>li,.skills>li,.details>li{
     color:inherit;
-    padding:1.875rem 1.875rem;
+    padding:0.875rem 1.875rem;
     line-height:29px;
 }
 .skills__meter { 

@@ -357,4 +357,24 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
      .details_container{
         flex-direction: column-reverse;
     } 
+    .details{
+        flex:1;
+        position: relative;
+        text-align: start;
+    }
+
+    .my_photo{
+        flex:1;
+        position: relative;
+        text-align: center;
+    }
+    
+    .my_photo>img{
+        border-radius: 40%;
+        width: 10rem;
+        height:10rem;
+        position: relative;
+        top: 0%; left: 0%;
+        transform:translate(0,0);
+    }
 }

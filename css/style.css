@@ -182,12 +182,21 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 }
 .details_container{
     display:flex;
+    flex-direction: row-reverse;
+    border: 0.125rem dotted var(--border-color);
+    color: var(--font-color);
 }
-.details{
+.details,.my_photo{
     flex:1;
+    position: relative;
 }
 .my_photo>img{
     border-radius: 50%;
+    width: 15rem;
+    height:15rem;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
 }
 .flex-container {
     display: flex;
@@ -195,9 +204,6 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 }
 .left-side{
     flex:1;
-}
-.my_photo.img{
-    max-width:50%;
 }
 .left-side:first-child{
     flex-grow:1;
@@ -219,18 +225,12 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
     padding: 1.25rem 1.25rem;
     background-color:var(--side-color);
 }
-.right-side__education,.right-side__languages, .skills,.details,
-.my_photo
+.right-side__education,.right-side__languages, .skills
 {
     list-style: none;
     color:var(--font-color);
     border: 0.125rem dotted var(--border-color);
 }
-.my_photo>img{
-    width: 15.62rem;
-    height:15.62rem;
-}
-
 .right-side__education li:nth-child(1) > span,.right-side__languages>li:first-child,
 .skills>li:first-child,.details>li:first-child
 {
@@ -355,7 +355,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
         max-width: 100%;
         max-height: 100%;
     }   
-    .my_photo{
-        display: none;
-    }
+     .details_container{
+        flex-direction: column-reverse;
+    } 
 }

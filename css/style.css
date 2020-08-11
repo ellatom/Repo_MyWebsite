@@ -57,6 +57,7 @@ img {
     top: 0px;
     padding: 0 30px;
     transition: 0.5s;
+    z-index:888;
 }
 
 .navbar.top {
@@ -172,7 +173,7 @@ a[href="#contact"]:hover::before, a[href="#contact"]:hover::after
 }
 
 .home__page * {
-    z-index: 10;
+/*     z-index: 10; */
 }
 /*About*/
 .section{
